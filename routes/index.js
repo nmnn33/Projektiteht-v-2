@@ -1,5 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var path = require('path');
+
+var app = express(); //express juttumme
+app.use(express.static(path.join(__dirname, 'public')));
 
 //to render, tässä on mun API taulukkoon tiedot
 let data = {};

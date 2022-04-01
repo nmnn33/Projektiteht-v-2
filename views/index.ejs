@@ -4,8 +4,8 @@
 <head>
   <!-- Tuodaan Header sisälle tiedoston /partials/header -sisältö -->
   <%- include('partials/header') %>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
 </head>
-
 <!--Jquery-->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
@@ -30,10 +30,10 @@
         <!-- luodaan silmukka joka käy läpi taulu-muuttujan sisällön -->
         <% for (var i=0; i < otsikko.length; i++){ %>
           <tr>
-            <td>
+            <td class="otsikko">
               <%= otsikko[i] %>
             </td>
-            <td>
+            <td class="kuvattu">
               <img src="<%= kuva[i] %>">
             </td>
             <td>

@@ -1,3 +1,5 @@
 Fullstack Projekti 2
 
-Käytetty: node.js, ejs, express ja muuta!
+Käytetty: node.js, ejs, express framework.
+
+Herokuun hostattu nettisivu, jossa API:n kautta saadaan sisältöä ejs sivuun.
