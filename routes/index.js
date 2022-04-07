@@ -40,9 +40,9 @@ function execute() {
         paivays.push(
           json.results[i].published_date
         );
-        kuva.push(
-          json.results[i].media[0]['media-metadata'][2].url
-        );
+        /*kuva.push(
+          json.results[i].media[0]["media-metadata"][2].url
+        );*/
       }
       console.log(data);
     }
